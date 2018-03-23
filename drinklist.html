@@ -35,21 +35,21 @@
 // const target = document.getElementById('drink-options');
 
 
-// for (i= 0; i < drinkList.length; i++) {
+for (i= 0; i < drinkList.length; i++) {
 
-//    console.log(drinkList[i])
-    // let newElement = document.createElement('p');
-    // newElement.innerHTML = drinkList [i];
-    // target.appendChild(newElement);
+   console.log(drinkList[i])
+    let newElement = document.createElement('p');
+    newElement.innerHTML = drinkList [i];
+    target.appendChild(newElement);
 
-//     $('#drink-options').append(`<p> + ${drinkList[i]} + </p>`)
-// }
+    $('#drink-options').append(`<p> + ${drinkList[i]} + </p>`)
+}
 
-drinkList.forEach(function(element, i) {
-    console.log(element);
-    $('#drink-options').append(`<p>${element}</p>`);
+// drinkList.forEach(function(element, i) {
+//     console.log(element);
+//     $('#drink-options').append(`<p>${element}</p>`);
 
-})
+// })
 
   </script>
 
